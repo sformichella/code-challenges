@@ -32,9 +32,4 @@ def prettyPrint(n):
     y = enum[1]
     return reduce(lambda w, z: w + makeStr(z, y), solutions["x"][index], "")
   return reduce(lambda x, y: x + reduceYs(y), enumerate(solutions["y"]), "")
-
-
-print(
-  prettyPrint(4)
-)
     
